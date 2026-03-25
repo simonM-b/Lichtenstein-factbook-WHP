@@ -1,1 +1,1 @@
-# Lichtenstein-factbook-WHP
+# Lichtenstein-factbook-HWHP
