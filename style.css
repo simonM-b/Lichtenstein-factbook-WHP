@@ -12,6 +12,7 @@ main{
     margin-right: auto;
     padding: 10px;
     display: border-box;
+    overflow-x: hidden;
 }
 
 .title{
@@ -34,7 +35,7 @@ main{
   }
   
 
-p, h1, h2, a {
+p, h1, h2, h3, a {
     color: #FFE2D1;
 }
 
@@ -48,6 +49,9 @@ p, h1, h2, a {
     padding: 10px;
     margin-left: -10px;
     margin-right: -10px;
+    outline: #FFE2D1;
+    outline-style: dashed;
+    outline-width: 3px;
 }
 
 .nav p{
@@ -60,6 +64,12 @@ p, h1, h2, a {
 
 .nav a:hover{
     text-decoration: underline;
+}
+
+.our-cuntry{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1C1C84;
 }
 
 
