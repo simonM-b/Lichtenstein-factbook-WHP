@@ -15,8 +15,17 @@ main{
     overflow-x: hidden;
 }
 
-.title{
+header{
     text-align: center;
+    background-color: #568e76;
+    width: 85%;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: border-box;
+    overflow-x: hidden;
+
 }
 
 @media (max-width: 650px) {
@@ -25,8 +34,11 @@ main{
         width: auto; 
         margin: auto;
     }
-    .title{
+    header{
         text-align: left;
+        padding: 10px;
+        width: auto; 
+        margin: auto;
     }
 
     .nav{
