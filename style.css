@@ -35,7 +35,7 @@ main{
   }
   
 
-p, h1, h2, h3, a {
+p, h1, h2, h3, a, h4 {
     color: #FFE2D1;
 }
 
@@ -68,8 +68,26 @@ p, h1, h2, h3, a {
 
 .our-cuntry{
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: #1C1C84;
+}
+
+.our-cuntry h3{
+    margin-top: 0px;
+}
+
+.main-topic-grid-container{
+    display: grid;
+    margin-top: 20px;
+    gap:10px;
+    grid-template-columns: 50% 50%;
+    padding-right: 10px;
+}
+
+.main-topic-grid-container .child{
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
 }
 
 
