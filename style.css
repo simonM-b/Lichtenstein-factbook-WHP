@@ -102,4 +102,10 @@ p, h1, h2, h3, a, h4 {
     text-align: center;
 }
 
+.main-topic-grid-container .child{
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+
 
