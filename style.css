@@ -6,6 +6,9 @@ body{
 
 main{
     background-color: #568e76;
+}
+
+.size-container{
     width: 85%;
     min-width: 300px;
     margin-left: auto;
@@ -13,27 +16,23 @@ main{
     padding: 10px;
     display: border-box;
     overflow-x: hidden;
+    background-color: #568e76;
 }
 
 header{
     text-align: center;
     background-color: #568e76;
-    width: 85%;
-    min-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    display: border-box;
-    overflow-x: hidden;
 
 }
 
 @media (max-width: 650px) {
-    main {
+
+    .size-container{
         padding: 10px;
         width: auto; 
         margin: auto;
     }
+
     header{
         text-align: left;
         padding: 10px;
@@ -59,11 +58,11 @@ p, h1, h2, h3, a, h4 {
     flex-wrap: wrap;
     background-color: #1C1C84;
     padding: 10px;
-    margin-left: -10px;
-    margin-right: -10px;
     outline: #FFE2D1;
     outline-style: dashed;
     outline-width: 2px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .nav p{
@@ -78,11 +77,16 @@ p, h1, h2, h3, a, h4 {
     text-decoration: underline;
 }
 
-.our-cuntry{
+.basic-text-container{
     margin-top: 20px;
     padding: 15px;
     background-color: #1C1C84;
 }
+
+.basic-text-container p{
+    margin: 0px;
+}
+
 
 .our-cuntry h3{
     margin-top: 0px;
@@ -107,6 +111,23 @@ p, h1, h2, h3, a, h4 {
     background-color: rgb(166, 88, 166);
     padding: 10px;
     text-align: center;
+}
+
+.image-text-together-container{
+    display: flex;
+}
+
+.image-text-together-container img{
+    margin-top: 20px;
+    float: left;
+    max-width: 30%;
+    height: auto;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.image-text-together-container{
+    float: right;
 }
 
 
