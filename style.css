@@ -1,27 +1,33 @@
 body{
-    background-color: #E1F0C4;
+    background-color: #45a4e3;
     padding: 0;
     margin: 10px;
 }
 
+@property --main-bg-color{
+    syntax:"<color>";
+    inherits: false;
+    initial-value:#016fb9 ;
+}
+
 main{
-    background-color: #568e76;
+    background-color: var(--main-bg-color);
 }
 
 .size-container{
     width: 85%;
     min-width: 300px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:  auto;
     padding: 10px;
     display: border-box;
     overflow-x: hidden;
-    background-color: #568e76;
+    background-color: var(--main-bg-color);
 }
 
 header{
     text-align: center;
-    background-color: #568e76;
+    background-color: var(--main-bg-color);
 
 }
 
@@ -47,7 +53,7 @@ header{
   
 
 p, h1, h2, h3, a, h4 {
-    color: #FFE2D1;
+    color: #ffffff;
 }
 
 .nav{
@@ -101,14 +107,14 @@ p, h1, h2, h3, a, h4 {
 }
 
 .main-topic-grid-container .child{
-    background-color: purple;
+    background-color: #6d8ea0;
     padding: 10px;
     text-align: center;
     text-decoration: none;
 }
 
 .main-topic-grid-container .child:hover{
-    background-color: rgb(166, 88, 166);
+    background-color: #181f29;
     padding: 10px;
     text-align: center;
 }
