@@ -1,5 +1,5 @@
 body{
-    background-color: #45a4e3;
+    background-color: #8d87af;
     padding: 0;
     margin: 10px;
 }
@@ -7,7 +7,7 @@ body{
 @property --main-bg-color{
     syntax:"<color>";
     inherits: false;
-    initial-value:#016fb9 ;
+    initial-value:#5F4B66 ;
 }
 
 main{
@@ -62,7 +62,7 @@ p, h1, h2, h3, a, h4 {
     justify-content: center;
     gap: 7.5px;
     flex-wrap: wrap;
-    background-color: #1C1C84;
+    background-color: #2C1320;
     padding: 10px;
     outline: #FFE2D1;
     outline-style: dashed;
@@ -86,7 +86,7 @@ p, h1, h2, h3, a, h4 {
 .basic-text-container{
     margin-top: 20px;
     padding: 15px;
-    background-color: #1C1C84;
+    background-color: #2C1320;
 }
 
 .basic-text-container p{
@@ -107,14 +107,14 @@ p, h1, h2, h3, a, h4 {
 }
 
 .main-topic-grid-container .child{
-    background-color: #6d8ea0;
+    background-color: #8797AF;
     padding: 10px;
     text-align: center;
     text-decoration: none;
 }
 
 .main-topic-grid-container .child:hover{
-    background-color: #181f29;
+    background-color: #A7ADC6;
     padding: 10px;
     text-align: center;
 }
