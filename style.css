@@ -127,7 +127,7 @@ p, h1, h2, h3, a, h4 {
     margin-top: 20px;
     float: left;
     max-width: 30%;
-    height: auto;
+    max-height: 300px;
     margin-right: 10px;
     object-fit: cover;
 }
