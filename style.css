@@ -4,14 +4,26 @@ body{
     margin: 10px;
 }
 
-@property --main-bg-color{
-    syntax:"<color>";
-    inherits: false;
-    initial-value:#5F4B66 ;
+:root{
+    --main-bg-color:#5F4B66;
+    --txt-and-img-bg-color: #2C1320;
+    --text-color: #ffffff;
 }
+
 
 main{
     background-color: var(--main-bg-color);
+}
+
+.inner-small-textbox{
+    display: block; 
+    overflow-x: visible;
+    width: 80%; margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+    outline: white; 
+    outline-width: 1px; 
+    outline-style: solid;
 }
 
 .size-container{
@@ -49,11 +61,20 @@ header{
     .nav{
         font-size: 110%;
     }
+
+    .inner-small-textbox{
+        display: block; 
+        overflow-x: visible;
+        width: 100%; margin-left: auto;
+        margin-right: auto;
+        padding: 0px;  
+        outline-style: none;
+    }
   }
   
 
 p, h1, h2, h3, a, h4 {
-    color: #ffffff;
+    color: var(--text-color);
 }
 
 .nav{
@@ -62,7 +83,7 @@ p, h1, h2, h3, a, h4 {
     justify-content: center;
     gap: 7.5px;
     flex-wrap: wrap;
-    background-color: #2C1320;
+    background-color: var(--txt-and-img-bg-color);
     padding: 10px;
     outline: #FFE2D1;
     outline-style: dashed;
@@ -83,10 +104,11 @@ p, h1, h2, h3, a, h4 {
     text-decoration: underline;
 }
 
+
 .basic-text-container{
     margin-top: 20px;
     padding: 15px;
-    background-color: #2C1320;
+    background-color: var(--txt-and-img-bg-color);
 }
 
 .basic-text-container p{
@@ -130,6 +152,8 @@ p, h1, h2, h3, a, h4 {
     max-height: 300px;
     margin-right: 10px;
     object-fit: cover;
+    background-color: var(--txt-and-img-bg-color) ;
+    padding: 4px;
 }
 
 .image-text-together-container{
